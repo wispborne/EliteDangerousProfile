@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DisplayConfig>
+	<ScreenWidth>2560</ScreenWidth>
+	<ScreenHeight>1440</ScreenHeight>
+	<VSync>false</VSync>
+	<FullScreen>2</FullScreen>
+	<PresentInterval>1</PresentInterval>
+	<Adapter>0</Adapter>
+	<Monitor>0</Monitor>
+	<DX11_RefreshRateNumerator>59951</DX11_RefreshRateNumerator>
+	<DX11_RefreshRateDenominator>1000</DX11_RefreshRateDenominator>
+	<LimitFrameRate>true</LimitFrameRate>
+	<MaxFramesPerSecond>90</MaxFramesPerSecond>
+</DisplayConfig>

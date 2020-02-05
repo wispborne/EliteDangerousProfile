@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GraphicsConfig>
+  <GUIColour>
+    <Default>
+      <LocalisationName>Standard</LocalisationName>
+      <!-- blue and green
+<MatrixRed> 0, 0.33, 0.75 </MatrixRed><MatrixGreen> 0.6, 0, 0 </MatrixGreen><MatrixBlue> 0, 1, 0 </MatrixBlue>
+-->
+      <!-- white and orange
+<MatrixRed> 0.5, 0.5, 1 </MatrixRed><MatrixGreen> 0, 0.5, 0 </MatrixGreen><MatrixBlue> 1, 0, 0 </MatrixBlue>
+-->
+      <!-- dark blue and orange -->
+      <MatrixRed>1, 0, 0</MatrixRed>
+      <MatrixGreen>0, 1, 0</MatrixGreen>
+      <MatrixBlue>0, 0, 1</MatrixBlue>
+    </Default>
+  </GUIColour>
+  <GalaxyBackground>
+    <High>
+      <LocalisationName>$QUALITY_HIGH;</LocalisationName>
+      <TextureSize>4096</TextureSize>
+    </High>
+  </GalaxyBackground>
+  <Planets>
+    <Ultra>
+      <LocalisationName>$QUALITY_ULTRA;</LocalisationName>
+      <TextureSize>4096</TextureSize>
+    </Ultra>
+  </Planets>
+  <Envmap>
+    <High>
+      <LocalisationName>$QUALITY_HIGH;</LocalisationName>
+      <TextureSize>512</TextureSize>
+    </High>
+  </Envmap>
+  <Environment>
+    <Ultra>
+      <LocalisationName>$QUALITY_ULTRA;</LocalisationName>
+      <Item>
+        <Feature>GalaxyBackground</Feature>
+        <QualitySetting>3</QualitySetting>
+      </Item>
+    </Ultra>
+  </Environment>
+</GraphicsConfig>
