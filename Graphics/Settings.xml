@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <GraphicsOptions>
 	<Version>1</Version>
-	<PresetName>VRHigh</PresetName>
+	<PresetName>Custom</PresetName>
 	<StereoscopicMode>0</StereoscopicMode>
 	<IPDAmount>0.001000</IPDAmount>
 	<AMDCrashFix>false</AMDCrashFix>

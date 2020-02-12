@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="Custom">
-	<user_SFX_volume Value="65.00000000" Muted="0" />
-	<user_music_volume Value="35.00000000" Muted="0" />
-	<user_wavescanner_volume Value="100.00000000" Muted="0" />
-	<user_shipvoice_volume Value="49.99999619" Muted="0" />
-	<user_cqcvoice_volume Value="100.00000000" Muted="0" />
-	<user_npc_communication_volume Value="100.00000000" Muted="0" />
-	<user_comms_volume Value="50.00000000" Muted="0" />
+	<SoundEffectsVolume Value="34.91572952" Muted="0" />
+	<MusicVolume Value="35.28089905" Muted="0" />
+	<WaveScannerVolume Value="75.00000000" Muted="0" />
+	<ShipVoiceVolume Value="75.00000000" Muted="0" />
+	<NpcVoiceCommsVolume Value="75.00000000" Muted="0" />
+	<PlayerVoiceCommsVolume Value="75.00000000" Muted="0" />
+	<PlaylistVolume Value="75.00000000" Muted="0" />
+	<VoiceVolume Value="36.17977524" Muted="0" />
 	<CombatMusicEnabled Enabled="1" />
 	<SuperCruiseMusicEnabled Enabled="1" />
 	<ExplorationMusicEnabled Enabled="1" />
@@ -14,6 +15,13 @@
 	<DockingMusicEnabled Enabled="1" />
 	<StellarCartographyMusicEnabled Enabled="1" />
 	<MenuMusicEnabled Enabled="1" />
+	<GalnetAudioAutomaticPausingEnabled Enabled="1" />
+	<GalnetAudioInterdictionPausingEnabled Enabled="1" />
+	<GalnetAudioSwitchingVesselPausingEnabled Enabled="1" />
+	<GalnetAudioTakingFirePausingEnabled Enabled="1" />
+	<GalnetAudioOtherVoicesPausingEnabled Enabled="1" />
+	<GalnetAudioAutomaticResumingEnabled Enabled="1" />
+	<WaveScannerAutoDuckingEnabled Enabled="1" />
 	<AiOrdersEnabled Enabled="1" />
 	<BuffsEnabled Enabled="1" />
 	<CabinPressureAlertEnabled Enabled="1" />
@@ -97,4 +105,6 @@
 	<DynamicRange Type="Default" />
 	<hp3d_override Type="1" />
 	<hp3d Type="Enabled" />
+	<CallSign Type="CMDR_Name" />
+	<GalnetAudioLanguage Type="0" />
 </Root>
