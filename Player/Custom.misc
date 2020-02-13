@@ -31,8 +31,8 @@
 	<NavigationMarkers Value="1" />
 	<SystemConnectors Value="2" />
 	<SystemConnectorsDefault Value="2" />
-	<routePlottingVirtualCargoMass Value="1" />
-	<routePlottingRealCargoMass Value="1" />
+	<routePlottingVirtualCargoMass Value="17" />
+	<routePlottingRealCargoMass Value="17" />
 	<NebulaNames Value="1" />
 	<RealisticView Value="1" />
 	<ColourVisIndex Value="0" />
@@ -57,130 +57,130 @@
 	<GalacticZonesPlane Value="1" />
 	<GalacticZoneNames Value="1" />
 	<StarterZoneMarkers Value="1" />
-	<RouteStartSystem Value="5031856181962" />
+	<RouteStartSystem Value="671223195049" />
 	<RouteDestinationSystem Value="0" />
 	<RouteDestinationBody Value="0" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
 	<RouteDestinationIsCluster Value="0" />
 	<VisibilityFlags>
 		<LocationPanelFilters>
-			<Settlement Value="1" />
-			<Star Value="1" />
-			<PlanetOrMoon Value="1" />
-			<System Value="1" />
 			<SignalSource Value="0" />
-			<LandablePlanetOrMoon Value="1" />
+			<LandablePlanetOrMoon Value="0" />
+			<PlanetOrMoon Value="0" />
+			<System Value="0" />
 			<AsteroidCluster Value="0" />
-			<PointOfInterest Value="1" />
-			<station Value="1" />
+			<Settlement Value="0" />
+			<Star Value="0" />
+			<PointOfInterest Value="0" />
+			<station Value="0" />
 		</LocationPanelFilters>
-		<government>
+		<faction>
+			<Independent Value="0" />
 			<affectsRoutePlotting Value="0" />
-			<Prison Value="1" />
-			<Patronage Value="1" />
-			<Colony Value="1" />
-			<Democracy Value="1" />
-			<Imperial Value="1" />
-			<Engineer Value="1" />
-			<None Value="1" />
-			<Confederacy Value="1" />
-			<Communism Value="1" />
-			<Anarchy Value="1" />
-			<Theocracy Value="1" />
-			<Feudal Value="1" />
-			<Dictatorship Value="1" />
-			<Corporate Value="1" />
-			<Cooperative Value="1" />
-			<PrisonColony Value="1" />
-		</government>
-		<commodities>
-			<imperialslaves Value="1" />
-			<biowaste Value="1" />
-			<scrap Value="1" />
-		</commodities>
+			<Federation Value="0" />
+			<None Value="0" />
+			<Empire Value="1" />
+			<Alliance Value="0" />
+		</faction>
 		<starclass>
-			<M Value="0" />
-			<T Value="0" />
-			<TTS Value="1" />
-			<N Value="1" />
-			<Y Value="0" />
-			<C Value="1" />
-			<L Value="0" />
 			<F Value="1" />
-			<K Value="0" />
-			<B Value="0" />
-			<O Value="0" />
+			<M Value="0" />
 			<D Value="0" />
 			<affectsRoutePlotting Value="0" />
-			<A Value="1" />
+			<O Value="0" />
+			<C Value="1" />
+			<B Value="0" />
 			<W Value="1" />
+			<TTS Value="1" />
+			<L Value="0" />
+			<Y Value="0" />
+			<N Value="1" />
+			<A Value="1" />
+			<K Value="0" />
 			<G Value="0" />
+			<T Value="0" />
 		</starclass>
 		<minorFactionStatus>
-			<CivilLiberty Value="1" />
-			<Lockdown Value="1" />
 			<Boom Value="1" />
-			<Drought Value="1" />
 			<PublicHoliday Value="1" />
-			<Terrorism Value="1" />
-			<Expansion Value="1" />
-			<Blight Value="1" />
-			<Bust Value="1" />
-			<Famine Value="1" />
-			<Outbreak Value="1" />
-			<War Value="1" />
 			<Election Value="1" />
-			<affectsRoutePlotting Value="0" />
-			<CivilWar Value="1" />
-			<Retreat Value="1" />
+			<Lockdown Value="1" />
 			<Incursion Value="1" />
-			<None Value="1" />
 			<CivilUnrest Value="1" />
+			<War Value="1" />
+			<Terrorism Value="1" />
+			<Famine Value="1" />
+			<CivilLiberty Value="1" />
+			<CivilWar Value="1" />
 			<NaturalDisaster Value="1" />
-			<Investment Value="1" />
 			<InfrastructureFailure Value="1" />
-		</minorFactionStatus>
-		<visited>
-			<notVisited Value="1" />
-			<visited Value="1" />
+			<Drought Value="1" />
+			<Expansion Value="1" />
+			<Retreat Value="1" />
 			<affectsRoutePlotting Value="0" />
-		</visited>
+			<Bust Value="1" />
+			<Blight Value="1" />
+			<None Value="1" />
+			<Outbreak Value="1" />
+			<Investment Value="1" />
+		</minorFactionStatus>
 		<VisibleChannels>
+			<profanity Value="0" />
 			<local Value="1" />
 			<voiceGroup Value="0" />
-			<profanity Value="0" />
 		</VisibleChannels>
-		<security>
-			<MediumSecurity Value="1" />
-			<HighSecurity Value="1" />
-			<Anarchy Value="1" />
-			<LowSecurity Value="1" />
-			<affectsRoutePlotting Value="0" />
-		</security>
-		<autoVoice>
-			<wing Value="0" />
-		</autoVoice>
 		<categories>
 			<Other Value="1" />
 		</categories>
-		<faction>
-			<Independent Value="0" />
-			<Alliance Value="0" />
-			<Federation Value="0" />
-			<Empire Value="1" />
+		<security>
+			<LowSecurity Value="1" />
 			<affectsRoutePlotting Value="0" />
-			<None Value="0" />
-		</faction>
+			<HighSecurity Value="1" />
+			<Anarchy Value="1" />
+			<MediumSecurity Value="1" />
+		</security>
+		<government>
+			<Democracy Value="1" />
+			<Feudal Value="1" />
+			<Dictatorship Value="1" />
+			<Imperial Value="1" />
+			<Prison Value="1" />
+			<Patronage Value="1" />
+			<Anarchy Value="1" />
+			<Theocracy Value="1" />
+			<Corporate Value="1" />
+			<Colony Value="1" />
+			<Cooperative Value="1" />
+			<None Value="1" />
+			<Engineer Value="1" />
+			<affectsRoutePlotting Value="0" />
+			<Confederacy Value="1" />
+			<PrisonColony Value="1" />
+			<Communism Value="1" />
+		</government>
+		<autoVoice>
+			<wing Value="0" />
+		</autoVoice>
+		<commodities>
+			<scrap Value="1" />
+			<imperialslaves Value="1" />
+			<biowaste Value="1" />
+		</commodities>
+		<visited>
+			<affectsRoutePlotting Value="0" />
+			<visited Value="1" />
+			<notVisited Value="1" />
+		</visited>
 	</VisibilityFlags>
 	<VisibilityValues />
 	<TextChannelOptions>
 		<VisibleChannels>
-			<CHAT_group_wing_and_multicrew Value="2" />
-			<COMMS_direct_messages Value="2" />
-			<CHAT_group_local Value="2" />
+			<CHAT_system Value="1" />
 			<CHAT_group_wing Value="2" />
 			<CHAT_notifications Value="2" />
-			<CHAT_system Value="1" />
+			<COMMS_direct_messages Value="2" />
+			<CHAT_group_wing_and_multicrew Value="2" />
+			<CHAT_group_local Value="2" />
 		</VisibleChannels>
 	</TextChannelOptions>
 	<VoiceChatPanelLocation Value="TopCentre" />
@@ -189,7 +189,7 @@
 	<ImportExportMarketID Value="18446744073709551615" />
 	<ImportExportShowImportPrices Value="1" />
 	<HelpPopupViewedFSS Value="1" />
-	<CurrentHUDMode Value="Analysis" />
+	<CurrentHUDMode Value="Normal" />
 	<MarketFilter_inCargo Value="1" />
 	<MarketFilter_requiredForMission Value="1" />
 	<MarketFilter_highDemand Value="1" />
