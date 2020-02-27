@@ -1,202 +1,202 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Root PresetName="Custom">
-	<GunsightMode Value="Bindings_TraditionalGunsights" />
-	<DashboardGUIBrightness Value="0.30000001" />
-	<ReportCrimesAgainstMe Value="1" />
-	<Language Value="English" />
-	<LanguageOverrideActive Value="0" />
-	<SensorScaleType Value="Logarithmic" />
-	<PilotIsFemale Value="0" />
-	<PreFlightChecksActive Value="0" />
-	<DisableUiCameraLockOn Value="0" />
-	<OrbitLinesEnabled Value="1" />
-	<ClockEnabled Value="1" />
-	<Dethrottle Value="1" />
-	<AutoDockEnabled Value="1" />
-	<AutoLaunchEnabled Value="1" />
-	<PreferredWeaponMode Value="3" />
-	<HidePresence Value="0" />
-	<OutfittingSortingPreference Value="0" />
-	<FirstTimeMultiCrew Value="1" />
-	<FirstTimeMultiCrewFireCon Value="1" />
-	<MultiCrewFighterConEnabled Value="1" />
-	<MultiCrewFireConLimited Value="0" />
-	<DisableIdleHandAnimations Value="1" />
-	<AutoCruisethrottleRelevant Value="1" />
-	<StarNames Value="1" />
-	<RegionNames Value="1" />
-	<TradeRoutes Value="0" />
-	<Constellations Value="0" />
-	<ShowGrid Value="1" />
-	<NavigationMarkers Value="1" />
-	<SystemConnectors Value="2" />
-	<SystemConnectorsDefault Value="2" />
-	<routePlottingVirtualCargoMass Value="17" />
-	<routePlottingRealCargoMass Value="17" />
-	<NebulaNames Value="1" />
-	<RealisticView Value="1" />
-	<ColourVisIndex Value="0" />
-	<SizeVisIndex Value="0" />
-	<FriendMarkers Value="1" />
-	<WingMarkers Value="1" />
-	<MissionMarkers Value="1" />
-	<ShipMarkers Value="1" />
-	<CommunityGoalMarkers Value="1" />
-	<EngineerMarkers Value="1" />
-	<BookmarkMarkers Value="1" />
-	<SquadronBookmarkMarkers Value="0" />
-	<TypeDMarkers Value="0" />
-	<TypeRMarkers Value="0" />
-	<PoliticsMode Value="0" />
-	<NavJetConeBoost Value="0" />
-	<NavigationPreviousRoute Value="1" />
-	<CommodityIndex Value="0" />
-	<CommodityPriceMode Value="0" />
-	<TradeCategory Value="3" />
-	<ServicesOption Value="0" />
-	<GalacticZonesPlane Value="1" />
-	<GalacticZoneNames Value="1" />
-	<StarterZoneMarkers Value="1" />
-	<RouteStartSystem Value="671223195049" />
-	<RouteDestinationSystem Value="0" />
-	<RouteDestinationBody Value="0" />
-	<RouteDestinationMarketID Value="18446744073709551615" />
-	<RouteDestinationIsCluster Value="0" />
-	<VisibilityFlags>
-		<LocationPanelFilters>
-			<SignalSource Value="0" />
-			<LandablePlanetOrMoon Value="0" />
-			<PlanetOrMoon Value="0" />
-			<System Value="0" />
-			<AsteroidCluster Value="0" />
-			<Settlement Value="0" />
-			<Star Value="0" />
-			<PointOfInterest Value="0" />
-			<station Value="0" />
-		</LocationPanelFilters>
-		<faction>
-			<Independent Value="0" />
-			<affectsRoutePlotting Value="0" />
-			<Federation Value="0" />
-			<None Value="0" />
-			<Empire Value="1" />
-			<Alliance Value="0" />
-		</faction>
-		<starclass>
-			<F Value="1" />
-			<M Value="0" />
-			<D Value="0" />
-			<affectsRoutePlotting Value="0" />
-			<O Value="0" />
-			<C Value="1" />
-			<B Value="0" />
-			<W Value="1" />
-			<TTS Value="1" />
-			<L Value="0" />
-			<Y Value="0" />
-			<N Value="1" />
-			<A Value="1" />
-			<K Value="0" />
-			<G Value="0" />
-			<T Value="0" />
-		</starclass>
-		<minorFactionStatus>
-			<Boom Value="1" />
-			<PublicHoliday Value="1" />
-			<Election Value="1" />
-			<Lockdown Value="1" />
-			<Incursion Value="1" />
-			<CivilUnrest Value="1" />
-			<War Value="1" />
-			<Terrorism Value="1" />
-			<Famine Value="1" />
-			<CivilLiberty Value="1" />
-			<CivilWar Value="1" />
-			<NaturalDisaster Value="1" />
-			<InfrastructureFailure Value="1" />
-			<Drought Value="1" />
-			<Expansion Value="1" />
-			<Retreat Value="1" />
-			<affectsRoutePlotting Value="0" />
-			<Bust Value="1" />
-			<Blight Value="1" />
-			<None Value="1" />
-			<Outbreak Value="1" />
-			<Investment Value="1" />
-		</minorFactionStatus>
-		<VisibleChannels>
-			<profanity Value="0" />
-			<local Value="1" />
-			<voiceGroup Value="0" />
-		</VisibleChannels>
-		<categories>
-			<Other Value="1" />
-		</categories>
-		<security>
-			<LowSecurity Value="1" />
-			<affectsRoutePlotting Value="0" />
-			<HighSecurity Value="1" />
-			<Anarchy Value="1" />
-			<MediumSecurity Value="1" />
-		</security>
-		<government>
-			<Democracy Value="1" />
-			<Feudal Value="1" />
-			<Dictatorship Value="1" />
-			<Imperial Value="1" />
-			<Prison Value="1" />
-			<Patronage Value="1" />
-			<Anarchy Value="1" />
-			<Theocracy Value="1" />
-			<Corporate Value="1" />
-			<Colony Value="1" />
-			<Cooperative Value="1" />
-			<None Value="1" />
-			<Engineer Value="1" />
-			<affectsRoutePlotting Value="0" />
-			<Confederacy Value="1" />
-			<PrisonColony Value="1" />
-			<Communism Value="1" />
-		</government>
-		<autoVoice>
-			<wing Value="0" />
-		</autoVoice>
-		<commodities>
-			<scrap Value="1" />
-			<imperialslaves Value="1" />
-			<biowaste Value="1" />
-		</commodities>
-		<visited>
-			<affectsRoutePlotting Value="0" />
-			<visited Value="1" />
-			<notVisited Value="1" />
-		</visited>
-	</VisibilityFlags>
-	<VisibilityValues />
-	<TextChannelOptions>
-		<VisibleChannels>
-			<CHAT_system Value="1" />
-			<CHAT_group_wing Value="2" />
-			<CHAT_notifications Value="2" />
-			<COMMS_direct_messages Value="2" />
-			<CHAT_group_wing_and_multicrew Value="2" />
-			<CHAT_group_local Value="2" />
-		</VisibleChannels>
-	</TextChannelOptions>
-	<VoiceChatPanelLocation Value="TopCentre" />
-	<ImportExportPriceMode Value="GalacticAverage" />
-	<ImportExportSystemAddress Value="0" />
-	<ImportExportMarketID Value="18446744073709551615" />
-	<ImportExportShowImportPrices Value="1" />
-	<HelpPopupViewedFSS Value="1" />
-	<CurrentHUDMode Value="Normal" />
-	<MarketFilter_inCargo Value="1" />
-	<MarketFilter_requiredForMission Value="1" />
-	<MarketFilter_highDemand Value="1" />
-	<MarketFilter_rareGoods Value="1" />
-	<MarketFilter_commodTypeFlags Value="4294967295" />
-	<MarketPopupExp_Buy Value="1" />
-	<MarketPopupExp_Sell Value="1" />
-	<TutorialFlowStage Value="0" />
-	<TutorialCheckpoint Value="0" />
+  <GunsightMode Value="Bindings_TraditionalGunsights" />
+  <DashboardGUIBrightness Value="1.0000" />
+  <ReportCrimesAgainstMe Value="1" />
+  <Language Value="English" />
+  <LanguageOverrideActive Value="0" />
+  <SensorScaleType Value="Logarithmic" />
+  <PilotIsFemale Value="0" />
+  <PreFlightChecksActive Value="0" />
+  <DisableUiCameraLockOn Value="0" />
+  <OrbitLinesEnabled Value="1" />
+  <ClockEnabled Value="1" />
+  <Dethrottle Value="1" />
+  <AutoDockEnabled Value="1" />
+  <AutoLaunchEnabled Value="1" />
+  <PreferredWeaponMode Value="3" />
+  <HidePresence Value="0" />
+  <OutfittingSortingPreference Value="0" />
+  <FirstTimeMultiCrew Value="1" />
+  <FirstTimeMultiCrewFireCon Value="1" />
+  <MultiCrewFighterConEnabled Value="1" />
+  <MultiCrewFireConLimited Value="0" />
+  <DisableIdleHandAnimations Value="1" />
+  <AutoCruisethrottleRelevant Value="1" />
+  <StarNames Value="1" />
+  <RegionNames Value="1" />
+  <TradeRoutes Value="0" />
+  <Constellations Value="0" />
+  <ShowGrid Value="1" />
+  <NavigationMarkers Value="1" />
+  <SystemConnectors Value="2" />
+  <SystemConnectorsDefault Value="2" />
+  <routePlottingVirtualCargoMass Value="2" />
+  <routePlottingRealCargoMass Value="2" />
+  <NebulaNames Value="1" />
+  <RealisticView Value="1" />
+  <ColourVisIndex Value="0" />
+  <SizeVisIndex Value="0" />
+  <FriendMarkers Value="1" />
+  <WingMarkers Value="1" />
+  <MissionMarkers Value="1" />
+  <ShipMarkers Value="1" />
+  <CommunityGoalMarkers Value="1" />
+  <EngineerMarkers Value="1" />
+  <BookmarkMarkers Value="1" />
+  <SquadronBookmarkMarkers Value="0" />
+  <TypeDMarkers Value="0" />
+  <TypeRMarkers Value="0" />
+  <PoliticsMode Value="0" />
+  <NavJetConeBoost Value="0" />
+  <NavigationPreviousRoute Value="1" />
+  <CommodityIndex Value="0" />
+  <CommodityPriceMode Value="0" />
+  <TradeCategory Value="3" />
+  <ServicesOption Value="0" />
+  <GalacticZonesPlane Value="1" />
+  <GalacticZoneNames Value="1" />
+  <StarterZoneMarkers Value="1" />
+  <RouteStartSystem Value="3932277478106" />
+  <RouteDestinationSystem Value="0" />
+  <RouteDestinationBody Value="0" />
+  <RouteDestinationMarketID Value="18446744073709551615" />
+  <RouteDestinationIsCluster Value="0" />
+  <VisibilityFlags>
+    <security>
+      <HighSecurity Value="1" />
+      <MediumSecurity Value="1" />
+      <affectsRoutePlotting Value="0" />
+      <LowSecurity Value="1" />
+      <Anarchy Value="1" />
+    </security>
+    <government>
+      <Colony Value="1" />
+      <affectsRoutePlotting Value="0" />
+      <Engineer Value="1" />
+      <Democracy Value="1" />
+      <Imperial Value="1" />
+      <Communism Value="1" />
+      <Prison Value="1" />
+      <Corporate Value="1" />
+      <Dictatorship Value="1" />
+      <Confederacy Value="1" />
+      <None Value="1" />
+      <Theocracy Value="1" />
+      <Cooperative Value="1" />
+      <Patronage Value="1" />
+      <Feudal Value="1" />
+      <PrisonColony Value="1" />
+      <Anarchy Value="1" />
+    </government>
+    <commodities>
+      <biowaste Value="1" />
+      <scrap Value="1" />
+      <imperialslaves Value="1" />
+    </commodities>
+    <starclass>
+      <G Value="0" />
+      <D Value="0" />
+      <A Value="1" />
+      <Y Value="0" />
+      <C Value="1" />
+      <O Value="0" />
+      <F Value="1" />
+      <T Value="0" />
+      <N Value="1" />
+      <affectsRoutePlotting Value="0" />
+      <TTS Value="1" />
+      <W Value="1" />
+      <L Value="0" />
+      <M Value="0" />
+      <K Value="0" />
+      <B Value="0" />
+    </starclass>
+    <minorFactionStatus>
+      <Election Value="0" />
+      <CivilLiberty Value="0" />
+      <Terrorism Value="0" />
+      <Bust Value="0" />
+      <Famine Value="0" />
+      <War Value="0" />
+      <None Value="0" />
+      <PublicHoliday Value="0" />
+      <Expansion Value="0" />
+      <Drought Value="0" />
+      <Lockdown Value="0" />
+      <NaturalDisaster Value="0" />
+      <Retreat Value="0" />
+      <Outbreak Value="1" />
+      <Blight Value="0" />
+      <Boom Value="0" />
+      <Investment Value="0" />
+      <InfrastructureFailure Value="0" />
+      <affectsRoutePlotting Value="0" />
+      <CivilUnrest Value="0" />
+      <CivilWar Value="0" />
+      <Incursion Value="0" />
+    </minorFactionStatus>
+    <VisibleChannels>
+      <local Value="1" />
+      <voiceGroup Value="0" />
+      <profanity Value="0" />
+    </VisibleChannels>
+    <visited>
+      <affectsRoutePlotting Value="0" />
+      <visited Value="1" />
+      <notVisited Value="1" />
+    </visited>
+    <LocationPanelFilters>
+      <Star Value="0" />
+      <LandablePlanetOrMoon Value="0" />
+      <Settlement Value="0" />
+      <System Value="0" />
+      <SignalSource Value="0" />
+      <PointOfInterest Value="0" />
+      <PlanetOrMoon Value="0" />
+      <AsteroidCluster Value="0" />
+      <station Value="0" />
+    </LocationPanelFilters>
+    <autoVoice>
+      <wing Value="0" />
+    </autoVoice>
+    <faction>
+      <Independent Value="0" />
+      <Empire Value="1" />
+      <None Value="0" />
+      <affectsRoutePlotting Value="1" />
+      <Federation Value="0" />
+      <Alliance Value="0" />
+    </faction>
+    <categories>
+      <Other Value="1" />
+    </categories>
+  </VisibilityFlags>
+  <VisibilityValues />
+  <TextChannelOptions>
+    <VisibleChannels>
+      <CHAT_system Value="1" />
+      <COMMS_direct_messages Value="2" />
+      <CHAT_group_local Value="2" />
+      <CHAT_group_wing_and_multicrew Value="2" />
+      <CHAT_notifications Value="2" />
+      <CHAT_group_wing Value="2" />
+    </VisibleChannels>
+  </TextChannelOptions>
+  <VoiceChatPanelLocation Value="TopCentre" />
+  <ImportExportPriceMode Value="GalacticAverage" />
+  <ImportExportSystemAddress Value="0" />
+  <ImportExportMarketID Value="18446744073709551615" />
+  <ImportExportShowImportPrices Value="1" />
+  <HelpPopupViewedFSS Value="1" />
+  <CurrentHUDMode Value="Normal" />
+  <MarketFilter_inCargo Value="1" />
+  <MarketFilter_requiredForMission Value="1" />
+  <MarketFilter_highDemand Value="1" />
+  <MarketFilter_rareGoods Value="1" />
+  <MarketFilter_commodTypeFlags Value="4294967295" />
+  <MarketPopupExp_Buy Value="1" />
+  <MarketPopupExp_Sell Value="1" />
+  <TutorialFlowStage Value="0" />
+  <TutorialCheckpoint Value="0" />
 </Root>
