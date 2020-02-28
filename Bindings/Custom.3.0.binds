@@ -138,7 +138,7 @@
 	<ThrottleRange Value="" />
 	<ToggleReverseThrottleInput>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="T16000MTHROTTLE" Key="Joy_2" />
+		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInput>
 	<ForwardKey>
@@ -544,7 +544,7 @@
 	</PlayerHUDModeToggle>
 	<ExplorationFSSEnter>
 		<Primary Device="Keyboard" Key="Key_Apostrophe" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_2" />
 	</ExplorationFSSEnter>
 	<UI_Up>
 		<Primary Device="T16000M" Key="Joy_POV1Up" />
@@ -1400,7 +1400,7 @@
 	<FSSTuningSensitivity Value="1.00000000" />
 	<ExplorationFSSDiscoveryScan>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_2" />
 	</ExplorationFSSDiscoveryScan>
 	<ExplorationFSSQuit>
 		<Primary Device="T16000M" Key="Joy_4" />
@@ -1427,7 +1427,7 @@
 		<ToggleOn Value="1" />
 	</ExplorationSAAChangeScannedAreaViewToggle>
 	<ExplorationSAAExitThirdPerson>
-		<Primary Device="T16000M" Key="Joy_5" />
+		<Primary Device="T16000M" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationSAAExitThirdPerson>
 	<SAAThirdPersonMouseXMode Value="" />
