@@ -1365,11 +1365,11 @@
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
 		<Primary Device="T16000M" Key="Joy_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_1" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
 		<Primary Device="T16000M" Key="Joy_2" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_2" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
 		<Primary Device="T16000M" Key="Joy_11" />
@@ -1386,18 +1386,18 @@
 	</ExplorationFSSRadioTuningX_Raw>
 	<ExplorationFSSRadioTuningX_Increase>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_8" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Neg_Mouse_ZAxis" />
 	</ExplorationFSSRadioTuningX_Increase>
 	<ExplorationFSSRadioTuningX_Decrease>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_10" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Pos_Mouse_ZAxis" />
 	</ExplorationFSSRadioTuningX_Decrease>
 	<ExplorationFSSRadioTuningAbsoluteX>
 		<Binding Device="T16000M" Key="Joy_UAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSRadioTuningAbsoluteX>
-	<FSSTuningSensitivity Value="1.00000000" />
+	<FSSTuningSensitivity Value="8.00801182" />
 	<ExplorationFSSDiscoveryScan>
 		<Primary Device="T16000MTHROTTLE" Key="Joy_1" />
 		<Secondary Device="T16000MTHROTTLE" Key="Joy_2" />
@@ -1406,11 +1406,11 @@
 		<Primary Device="T16000M" Key="Joy_4" />
 		<Secondary Device="Keyboard" Key="Key_Apostrophe" />
 	</ExplorationFSSQuit>
-	<FSSMouseXMode Value="" />
-	<FSSMouseXDecay Value="1" />
-	<FSSMouseYMode Value="" />
-	<FSSMouseYDecay Value="1" />
-	<FSSMouseSensitivity Value="5.00000000" />
+	<FSSMouseXMode Value="Bindings_MouseYaw" />
+	<FSSMouseXDecay Value="0" />
+	<FSSMouseYMode Value="Bindings_MousePitchInverted" />
+	<FSSMouseYDecay Value="0" />
+	<FSSMouseSensitivity Value="24.83301353" />
 	<FSSMouseDeadzone Value="0.00000000" />
 	<FSSMouseLinearity Value="1.00000000" />
 	<ExplorationFSSTarget>
