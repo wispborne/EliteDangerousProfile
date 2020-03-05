@@ -1078,11 +1078,11 @@
 		</Secondary>
 	</PhotoCameraToggle_Buggy>
 	<VanityCameraScrollLeft>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Left" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraScrollLeft>
 	<VanityCameraScrollRight>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="T16000MTHROTTLE" Key="Joy_POV1Right" />
 		<Secondary Device="Keyboard" Key="Key_Space">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
