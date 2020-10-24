@@ -43,8 +43,8 @@
 	<EngageEnabled Enabled="1" />
 	<EnteringOrbitalCruiseEnabled Enabled="1" />
 	<FightersEnabled Enabled="1" />
-	<FlightAssistOffEnabled Enabled="1" />
-	<FlightAssistOnEnabled Enabled="1" />
+	<FlightAssistOffEnabled Enabled="0" />
+	<FlightAssistOnEnabled Enabled="0" />
 	<FrameshiftCountdownEnabled Enabled="1" />
 	<FuelScoopActivatedEnabled Enabled="1" />
 	<FuelScoopCompleteEnabled Enabled="1" />

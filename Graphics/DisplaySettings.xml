@@ -7,8 +7,8 @@
 	<PresentInterval>1</PresentInterval>
 	<Adapter>0</Adapter>
 	<Monitor>0</Monitor>
-	<DX11_RefreshRateNumerator>99946</DX11_RefreshRateNumerator>
+	<DX11_RefreshRateNumerator>143998</DX11_RefreshRateNumerator>
 	<DX11_RefreshRateDenominator>1000</DX11_RefreshRateDenominator>
 	<LimitFrameRate>true</LimitFrameRate>
-	<MaxFramesPerSecond>120</MaxFramesPerSecond>
+	<MaxFramesPerSecond>60</MaxFramesPerSecond>
 </DisplayConfig>

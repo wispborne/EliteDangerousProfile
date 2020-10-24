@@ -1,4 +1,20 @@
+There where errors when loading preset file: Custom.3.0.binds
+There are multiple entries of binding "MouseGUI" Only the first will be used
+There are multiple entries of binding "MouseGUI" Only the first will be used
+Missing devices: T16000M
+
+There where errors when loading preset file: HCS Custom.3.0.binds
+There are multiple entries of binding "MouseGUI" Only the first will be used
+There are multiple entries of binding "MouseGUI" Only the first will be used
+Missing devices: T16000M
+
+There where errors when loading preset file: HCS HCS Custom.3.0.binds
+There are multiple entries of binding "MouseGUI" Only the first will be used
+There are multiple entries of binding "MouseGUI" Only the first will be used
+Missing devices: T16000M
+
 There where errors when loading preset file: Steam Falcon MkIb.2.0.binds
+There are multiple entries of binding "MouseGUI" Only the first will be used
 Failed to find GUID for device: 28DE11FF
 Failed to find GUID for device: 28DE11FF
 Failed to find GUID for device: 28DE11FF
@@ -22,6 +38,7 @@ Failed to find GUID for device: 28DE11FF
 Failed to find GUID for device: 28DE11FF
 Failed to find GUID for device: 28DE11FF
 Failed to find GUID for device: 28DE11FF
+There are multiple entries of binding "MouseGUI" Only the first will be used
 Failed to find GUID for device: 28DE11FF
 Failed to find GUID for device: 28DE11FF
 Failed to find GUID for device: 28DE11FF
