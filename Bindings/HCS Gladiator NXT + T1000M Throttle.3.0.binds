@@ -687,7 +687,7 @@
 	<yawRotateHeadlook Value="0" />
 	<CamPitchAxis>
 		<Binding Device="231D0200" Key="Joy_YAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamPitchAxis>
 	<CamPitchUp>
@@ -718,7 +718,7 @@
 	</CamYawRight>
 	<CamTranslateYAxis>
 		<Binding Device="T16000MTHROTTLE" Key="Joy_YAxis" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
@@ -1561,12 +1561,15 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSShowHelp>
 	<ExplorationSAAChangeScannedAreaViewToggle>
-		<Primary Device="231D0200" Key="Joy_3" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Primary Device="231D0200" Key="Joy_21" />
+		<Secondary Device="Keyboard" Key="Key_O">
+			<Modifier Device="Keyboard" Key="Key_RightControl" />
+			<Modifier Device="Keyboard" Key="Key_RightShift" />
+		</Secondary>
 		<ToggleOn Value="1" />
 	</ExplorationSAAChangeScannedAreaViewToggle>
 	<ExplorationSAAExitThirdPerson>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="231D0200" Key="Joy_3" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_Subtract">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightShift" />
