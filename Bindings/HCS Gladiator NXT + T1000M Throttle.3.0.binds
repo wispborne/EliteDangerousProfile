@@ -561,13 +561,13 @@
 		<Primary Device="Keyboard" Key="Key_M">
 			<Modifier Device="Keyboard" Key="Key_RightControl" />
 		</Primary>
-		<Secondary Device="231D0200" Key="Joy_5" />
+		<Secondary Device="231D0200" Key="Joy_16" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
 		<Primary Device="Keyboard" Key="Key_M">
 			<Modifier Device="Keyboard" Key="Key_RightShift" />
 		</Primary>
-		<Secondary Device="231D0200" Key="Joy_20" />
+		<Secondary Device="231D0200" Key="Joy_18" />
 	</SystemMapOpen>
 	<ShowPGScoreSummaryInput>
 		<Primary Device="Keyboard" Key="Key_F1" />
@@ -621,7 +621,7 @@
 	</UI_Select>
 	<UI_Back>
 		<Primary Device="Keyboard" Key="Key_Backspace" />
-		<Secondary Device="231D0200" Key="Joy_3" />
+		<Secondary Device="231D0200" Key="Joy_10" />
 	</UI_Back>
 	<UI_Toggle>
 		<Primary Device="Keyboard" Key="Key_Equals" />
@@ -1569,7 +1569,7 @@
 		<ToggleOn Value="1" />
 	</ExplorationSAAChangeScannedAreaViewToggle>
 	<ExplorationSAAExitThirdPerson>
-		<Primary Device="231D0200" Key="Joy_3" />
+		<Primary Device="231D0200" Key="Joy_10" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_Subtract">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightShift" />
