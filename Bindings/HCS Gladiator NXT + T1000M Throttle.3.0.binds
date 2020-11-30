@@ -296,8 +296,8 @@
 		<Primary Device="Keyboard" Key="Key_F">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
-		<Secondary Device="T16000MTHROTTLE" Key="Joy_2" />
-		<ToggleOn Value="1" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_1" />
+		<ToggleOn Value="0" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
 		<Primary Device="Keyboard" Key="Key_Tab" />
@@ -390,14 +390,16 @@
 		<Primary Device="Keyboard" Key="Key_N">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
-		<Secondary Device="T16000MTHROTTLE" Key="Joy_1" />
+		<Secondary Device="T16000MTHROTTLE" Key="Joy_2" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
 		<Primary Device="Keyboard" Key="Key_Space" />
 		<Secondary Device="231D0200" Key="Joy_1" />
 	</PrimaryFire>
 	<SecondaryFire>
-		<Primary Device="Keyboard" Key="Key_LeftAlt" />
+		<Primary Device="Keyboard" Key="Key_LeftAlt">
+			<Modifier Device="Keyboard" Key="Key_LeftControl" />
+		</Primary>
 		<Secondary Device="231D0200" Key="Joy_3" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
@@ -751,8 +753,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateRight>
 	<CamTranslateZAxis>
-		<Binding Device="T16000MTHROTTLE" Key="Joy_ZAxis" />
-		<Inverted Value="1" />
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateZAxis>
 	<CamTranslateUp>
@@ -760,13 +762,13 @@
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_W" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="231D0200" Key="Joy_POV1Up" />
 	</CamTranslateUp>
 	<CamTranslateDown>
 		<Primary Device="Keyboard" Key="Key_S">
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="231D0200" Key="Joy_POV1Down" />
 	</CamTranslateDown>
 	<CamZoomAxis>
 		<Binding Device="231D0200" Key="Joy_RZAxis" />
@@ -1184,7 +1186,7 @@
 			<Modifier Device="Keyboard" Key="Key_LeftControl" />
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="231D0200" Key="Joy_28" />
 	</PhotoCameraToggle>
 	<PhotoCameraToggle_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1207,7 +1209,7 @@
 		</Secondary>
 	</VanityCameraScrollRight>
 	<ToggleFreeCam>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="231D0200" Key="Joy_27" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_8">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightShift" />
@@ -1250,7 +1252,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</VanityCameraNine>
 	<FreeCamToggleHUD>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="231D0200" Key="Joy_29" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_Enter">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightAlt" />
@@ -1322,8 +1324,8 @@
 	<PitchCameraMouse Value="" />
 	<YawCameraMouse Value="" />
 	<PitchCamera>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="231D0200" Key="Joy_YAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</PitchCamera>
 	<FreeCamMouseSensitivity Value="5.00000000" />
@@ -1337,7 +1339,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PitchCameraDown>
 	<YawCamera>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="231D0200" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawCamera>
@@ -1351,7 +1353,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawCameraRight>
 	<RollCamera>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="231D0200" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollCamera>
@@ -1383,7 +1385,7 @@
 	</FixCameraWorldToggle>
 	<QuitCamera>
 		<Primary Device="{NoDevice}" Key="" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="231D0200" Key="Joy_10" />
 	</QuitCamera>
 	<ToggleAdvanceMode>
 		<Primary Device="{NoDevice}" Key="" />
@@ -1504,11 +1506,11 @@
 	</ExplorationFSSCameraYawDecreaseButton>
 	<ExplorationFSSZoomIn>
 		<Primary Device="231D0200" Key="Joy_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_1" />
 	</ExplorationFSSZoomIn>
 	<ExplorationFSSZoomOut>
 		<Primary Device="231D0200" Key="Joy_2" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Mouse" Key="Mouse_2" />
 	</ExplorationFSSZoomOut>
 	<ExplorationFSSMiniZoomIn>
 		<Primary Device="231D0200" Key="Joy_11" />
@@ -1545,11 +1547,11 @@
 		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="231D0200" Key="Joy_4" />
 	</ExplorationFSSQuit>
-	<FSSMouseXMode Value="" />
+	<FSSMouseXMode Value="Bindings_MouseYaw" />
 	<FSSMouseXDecay Value="1" />
-	<FSSMouseYMode Value="" />
+	<FSSMouseYMode Value="Bindings_MousePitchInverted" />
 	<FSSMouseYDecay Value="1" />
-	<FSSMouseSensitivity Value="5.00000000" />
+	<FSSMouseSensitivity Value="28.03997803" />
 	<FSSMouseDeadzone Value="0.00000000" />
 	<FSSMouseLinearity Value="1.00000000" />
 	<ExplorationFSSTarget>
