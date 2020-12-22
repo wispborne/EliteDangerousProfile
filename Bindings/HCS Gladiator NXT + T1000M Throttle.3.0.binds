@@ -985,7 +985,7 @@
 		</Secondary>
 	</ResetPowerDistribution_Buggy>
 	<ToggleCargoScoop_Buggy>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Home" />
 		<Secondary Device="Keyboard" Key="Key_Numpad_1">
 			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
 			<Modifier Device="Keyboard" Key="Key_RightAlt" />
