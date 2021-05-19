@@ -297,7 +297,7 @@
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
 		<Secondary Device="T16000MTHROTTLE" Key="Joy_1" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
 		<Primary Device="Keyboard" Key="Key_Tab" />
