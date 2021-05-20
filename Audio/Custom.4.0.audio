@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Custom">
-	<SoundEffectsVolume Value="100.00000000" Muted="0" />
-	<MusicVolume Value="80.28089905" Muted="0" />
+<Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
+	<SoundEffectsVolume Value="84.55056000" Muted="0" />
+	<MusicVolume Value="50.22472000" Muted="0" />
 	<WaveScannerVolume Value="75.00000000" Muted="0" />
 	<ShipVoiceVolume Value="75.00000000" Muted="0" />
 	<NpcVoiceCommsVolume Value="75.00000000" Muted="0" />
@@ -15,6 +15,8 @@
 	<DockingMusicEnabled Enabled="1" />
 	<StellarCartographyMusicEnabled Enabled="1" />
 	<MenuMusicEnabled Enabled="1" />
+	<StreamerModeEnabled Enabled="0" />
+	<DiegeticMusicEnabled Enabled="1" />
 	<GalnetAudioAutomaticPausingEnabled Enabled="1" />
 	<GalnetAudioInterdictionPausingEnabled Enabled="1" />
 	<GalnetAudioSwitchingVesselPausingEnabled Enabled="1" />
@@ -43,8 +45,8 @@
 	<EngageEnabled Enabled="1" />
 	<EnteringOrbitalCruiseEnabled Enabled="1" />
 	<FightersEnabled Enabled="1" />
-	<FlightAssistOffEnabled Enabled="0" />
-	<FlightAssistOnEnabled Enabled="0" />
+	<FlightAssistOffEnabled Enabled="1" />
+	<FlightAssistOnEnabled Enabled="1" />
 	<FrameshiftCountdownEnabled Enabled="1" />
 	<FuelScoopActivatedEnabled Enabled="1" />
 	<FuelScoopCompleteEnabled Enabled="1" />
@@ -102,7 +104,10 @@
 	<UndockingSuccessfulEnabled Enabled="1" />
 	<UnknownObjectsEnabled Enabled="1" />
 	<BoostOtherPlayersEnabled Enabled="1" />
+	<ControllerRumbleEnabled Enabled="1" />
+	<SubtitelsEnabled Enabled="1" />
 	<DynamicRange Type="Default" />
+	<StreamerMode Type="NotStreaming" />
 	<hp3d_override Type="1" />
 	<hp3d Type="Enabled" />
 	<CallSign Type="CMDR_Name" />

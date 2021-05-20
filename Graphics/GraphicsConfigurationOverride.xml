@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <GraphicsConfig>
   <GUIColour>
     <Default>
@@ -15,31 +15,4 @@
       <MatrixBlue>0, 0, 1</MatrixBlue>
     </Default>
   </GUIColour>
-  <GalaxyBackground>
-    <High>
-      <LocalisationName>$QUALITY_HIGH;</LocalisationName>
-      <TextureSize>4096</TextureSize>
-    </High>
-  </GalaxyBackground>
-  <Planets>
-    <Ultra>
-      <LocalisationName>$QUALITY_ULTRA;</LocalisationName>
-      <TextureSize>4096</TextureSize>
-    </Ultra>
-  </Planets>
-  <Envmap>
-    <High>
-      <LocalisationName>$QUALITY_HIGH;</LocalisationName>
-      <TextureSize>512</TextureSize>
-    </High>
-  </Envmap>
-  <Environment>
-    <Ultra>
-      <LocalisationName>$QUALITY_ULTRA;</LocalisationName>
-      <Item>
-        <Feature>GalaxyBackground</Feature>
-        <QualitySetting>3</QualitySetting>
-      </Item>
-    </Ultra>
-  </Environment>
 </GraphicsConfig>
