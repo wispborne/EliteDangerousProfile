@@ -1782,13 +1782,16 @@
 	</HumanoidSelectPreviousGrenadeTypeButton>
 	<HumanoidToggleFlashlightButton>
 		<Primary Device="Keyboard" Key="Key_T" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_L" />
 	</HumanoidToggleFlashlightButton>
 	<HumanoidToggleNightVisionButton>
 		<Primary Device="Keyboard" Key="Key_T">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Primary>
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_RightControl">
+			<Modifier Device="Keyboard" Key="Key_Numpad_Multiply" />
+			<Modifier Device="Keyboard" Key="Key_LeftAlt" />
+		</Secondary>
 	</HumanoidToggleNightVisionButton>
 	<HumanoidToggleShieldsButton>
 		<Primary Device="Keyboard" Key="Key_Y" />
