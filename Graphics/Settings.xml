@@ -5,8 +5,8 @@
 	<StereoscopicMode>0</StereoscopicMode>
 	<IPDAmount>0.001000</IPDAmount>
 	<AMDCrashFix>false</AMDCrashFix>
-	<FOV>56.249001</FOV>
-	<HumanoidFOV>56.249001</HumanoidFOV>
+	<FOV>56.000000</FOV>
+	<HumanoidFOV>56.250000</HumanoidFOV>
 	<HighResScreenCapAntiAlias>3</HighResScreenCapAntiAlias>
 	<HighResScreenCapScale>4</HighResScreenCapScale>
 	<GammaOffset>0.000000</GammaOffset>
@@ -17,4 +17,6 @@
 	<VehicleMotionBlackout>false</VehicleMotionBlackout>
 	<VehicleMaintainHorizonCamera>false</VehicleMaintainHorizonCamera>
 	<DisableCameraShake>false</DisableCameraShake>
+	<HeadBobScale>1.000000</HeadBobScale>
+	<TerrainCheckerboardRenderingEnabled>true</TerrainCheckerboardRenderingEnabled>
 </GraphicsOptions>

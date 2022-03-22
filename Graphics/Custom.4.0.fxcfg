@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="Custom" MajorVersion="4" MinorVersion="0">
 	<BlurEnabled>false</BlurEnabled>
+	<TerrainCheckerboardRenderingEnabled>true</TerrainCheckerboardRenderingEnabled>
 	<AOQuality>3</AOQuality>
-	<DOFEnabled>1</DOFEnabled>
+	<DOFEnabled>0</DOFEnabled>
 	<BloomQuality>3</BloomQuality>
 	<EnvmapQuality>1</EnvmapQuality>
 	<MaterialQuality>3</MaterialQuality>
 	<EnvironmentQuality>3</EnvironmentQuality>
 	<FXQuality>3</FXQuality>
+	<ParticleEffectsQuality>2</ParticleEffectsQuality>
 	<GalaxyMapQuality>2</GalaxyMapQuality>
 	<GUIColourQuality>0</GUIColourQuality>
 	<TerrainQuality>3</TerrainQuality>
@@ -15,7 +17,9 @@
 	<SurfaceMaterialQuality>3</SurfaceMaterialQuality>
 	<JetConeQuality>3</JetConeQuality>
 	<VolumetricsQuality>3</VolumetricsQuality>
-	<ShadowQuality>4</ShadowQuality>
+	<DirectionalShadowQuality>4</DirectionalShadowQuality>
+	<SpotShadowQuality>4</SpotShadowQuality>
+	<UpscalingQuality>2</UpscalingQuality>
 	<TextureQualityEx>2</TextureQualityEx>
 	<AAMode>4</AAMode>
 	<TextureFilterQuality>4</TextureFilterQuality>
@@ -26,4 +30,5 @@
 	<HMDRenderTargetMultiplier>1.000000</HMDRenderTargetMultiplier>
 	<SSAAMultiplier>1.000000</SSAAMultiplier>
 	<GpuSchedulerMultiplier>0.500000</GpuSchedulerMultiplier>
+	<FFXCASIntensity>0.500000</FFXCASIntensity>
 </Root>

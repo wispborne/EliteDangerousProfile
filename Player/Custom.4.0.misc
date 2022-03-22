@@ -9,7 +9,7 @@
 	<PilotIsFemale Value="0" />
 	<PreFlightChecksActive Value="0" />
 	<DisableUiCameraLockOn Value="0" />
-	<OrbitLinesEnabled Value="1" />
+	<OrbitLinesEnabled Value="0" />
 	<ClockEnabled Value="1" />
 	<Dethrottle Value="1" />
 	<AutoDockEnabled Value="1" />
@@ -23,7 +23,7 @@
 	<MultiCrewFighterConEnabled Value="1" />
 	<MultiCrewFireConLimited Value="0" />
 	<MultiCrewVehicleConEnabled Value="1" />
-	<WingBeaconEnabled Value="1" />
+	<WingBeaconEnabled Value="0" />
 	<WingBoardingEnabled Value="1" />
 	<DisableIdleHandAnimations Value="0" />
 	<AutoCruisethrottleRelevant Value="0" />
@@ -34,13 +34,13 @@
 	<Constellations Value="0" />
 	<ShowGrid Value="1" />
 	<NavigationMarkers Value="1" />
-	<SystemConnectors Value="2" />
+	<SystemConnectors Value="0" />
 	<SystemConnectorsDefault Value="2" />
 	<routePlottingVirtualCargoMass Value="0" />
 	<routePlottingRealCargoMass Value="0" />
 	<NebulaNames Value="1" />
 	<RealisticView Value="0" />
-	<ColourVisIndex Value="2" />
+	<ColourVisIndex Value="9" />
 	<SizeVisIndex Value="0" />
 	<FriendMarkers Value="1" />
 	<WingMarkers Value="1" />
@@ -55,7 +55,7 @@
 	<PoliticsMode Value="0" />
 	<NavJetConeBoost Value="0" />
 	<NavigationPreviousRoute Value="1" />
-	<CommodityIndex Value="0" />
+	<CommodityIndex Value="671333304" />
 	<CommodityPriceMode Value="0" />
 	<TradeCategory Value="3" />
 	<ServicesOption Value="0" />
@@ -63,24 +63,47 @@
 	<GalacticZoneNames Value="1" />
 	<StarterZoneMarkers Value="1" />
 	<FleetCarrierMarkers Value="1" />
-	<RouteStartSystem Value="3932277478106" />
+	<RouteStartSystem Value="702018141" />
 	<RouteDestinationSystem Value="0" />
 	<RouteDestinationBody Value="0" />
 	<RouteDestinationMarketID Value="18446744073709551615" />
-	<RouteDestinationIsCluster Value="1" />
+	<RouteDestinationIsCluster Value="0" />
 	<VisibilityFlags>
+		<visited>
+			<visited Value="1" />
+			<notVisited Value="1" />
+			<affectsRoutePlotting Value="0" />
+		</visited>
+		<exploration>
+			<data Value="1" />
+			<noData Value="1" />
+		</exploration>
 		<LocationPanelFilters>
-			<FleetCarrier Value="0" />
+			<PlanetOrMoon Value="1" />
+			<SignalSource Value="0" />
+			<System Value="1" />
+			<station Value="1" />
+			<Settlement Value="1" />
+			<AsteroidCluster Value="0" />
+			<PointOfInterest Value="0" />
+			<LandablePlanetOrMoon Value="1" />
+			<Star Value="1" />
+			<FleetCarrier Value="1" />
 		</LocationPanelFilters>
+		<tradeData>
+			<data Value="1" />
+			<dataAvailable Value="1" />
+			<noData Value="1" />
+		</tradeData>
 	</VisibilityFlags>
 	<VisibilityValues />
 	<TextChannelOptions>
 		<VisibleChannels>
-			<COMMS_direct_messages Value="2" />
-			<CHAT_group_wing_and_multicrew Value="2" />
-			<CHAT_notifications Value="2" />
-			<CHAT_group_local Value="2" />
 			<CHAT_system Value="1" />
+			<CHAT_group_wing_and_multicrew Value="2" />
+			<CHAT_group_local Value="2" />
+			<CHAT_notifications Value="2" />
+			<COMMS_direct_messages Value="2" />
 		</VisibleChannels>
 	</TextChannelOptions>
 	<VoiceChatPanelLocation Value="TopCentre" />
@@ -88,7 +111,7 @@
 	<ImportExportSystemAddress Value="0" />
 	<ImportExportMarketID Value="18446744073709551615" />
 	<ImportExportShowImportPrices Value="1" />
-	<HelpPopupViewedFSS Value="0" />
+	<HelpPopupViewedFSS Value="1" />
 	<CurrentHUDMode Value="Analysis" />
 	<MarketFilter_inCargo Value="1" />
 	<MarketFilter_requiredForMission Value="1" />
@@ -107,5 +130,5 @@
 		<Slot7 Value="2520689613" />
 	</QuickItems>
 	<AgeCertification Value="2" />
-	<ShowMissionAcceptWarning Value="1" />
+	<ShowMissionAcceptWarning Value="0" />
 </Root>
